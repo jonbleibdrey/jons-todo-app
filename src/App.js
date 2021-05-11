@@ -1,5 +1,6 @@
 import './App.css';
 import Form from "./components/Form"
+import Todolist from "./components/Todolist"
 import React,{useState} from "react"
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
     </div>
     <div className="form">
     <Form input={input} setInput={setInput} todoList={todoList} setTodoList={setTodoList}/>
+    </div>
+    <div>
+      <Todolist todoList={todoList} setTodoList={setTodoList}/>
     </div>
     </>
   );
