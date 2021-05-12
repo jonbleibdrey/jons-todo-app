@@ -15,15 +15,17 @@
 .form-div button{
     margin: 3rem;
     margin-left: 43rem;
-    color: #ffff;
+    color: #2D3142;
     font-size: 2.4rem;
-    background: #BFC0C0;
+    background: #EF8354;
     /* padding: 2rem 4rem; */
     border: none;
+    box-shadow: -7px 5px 10px 0.5px rgb(223, 219, 219);
     /* border-top-left-radius: 3rem; */
     border-radius: 50%;
     height: 13rem;
     width: 13rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .form-input{

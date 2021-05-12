@@ -24,7 +24,7 @@ const Form = ({ input, setInput, todoList, setTodoList }) => {
         <hr/>
         <button onClick={addTodo} type="submit">
           {" "}
-          add todo
+          Add To List
         </button>
       </form>
     </div>
