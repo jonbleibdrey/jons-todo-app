@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/form.css"
 
 const Form = ({ input, setInput, todoList, setTodoList }) => {
   const HandleChange = (e) => {
@@ -12,25 +13,16 @@ const Form = ({ input, setInput, todoList, setTodoList }) => {
   }
 
   return (
-    <div>
+    <div className="form-div">
       <form>
         <input
-          style={{ padding: "5rem", textAlign: "center" }}
+        className="form-input"
           type="text"
           onChange={HandleChange}
           value={input}
         />
-        <button onClick={addTodo} type="submit"
-          style={{
-            margin: "1rem",
-            padding: "2rem 4rem",
-            background: "none",
-            border: "0.1rem solid blue",
-            color: "blue",
-            fontSize: "2.4rem",
-            borderRadious: "1rem",
-          }}
-        >
+        <hr/>
+        <button onClick={addTodo} type="submit">
           {" "}
           add todo
         </button>

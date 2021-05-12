@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div className="App">
-    <h1>Jonathans, <mark>Magical</mark>, To-Do List</h1>
+    <h1>Jonathans <mark>Magical</mark>, To-Do List</h1>
     </div>
     <div className="form">
     <Form input={input} setInput={setInput} todoList={todoList} setTodoList={setTodoList}/>
