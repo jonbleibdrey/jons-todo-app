@@ -8,8 +8,10 @@
 .form-div hr{
     background-color: #C7EF00;
     border: none;
-    width: 100rem;
+    width: 80rem;
     height: 0.5rem;
+    margin-left: 10rem;
+    
 }
 
 .form-div button{
@@ -34,6 +36,7 @@
     font-size: 100px;
     border: none;
     outline: none;
+    text-align: left;
    
 }
 
