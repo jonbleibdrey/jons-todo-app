@@ -25,3 +25,12 @@
   margin-right: 5rem;
  
 }
+
+.todo-textbutton{
+    font-size: 20px;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    background-color: #2d3142;
+    color: white;
+    margin-left: 1rem; 
+}

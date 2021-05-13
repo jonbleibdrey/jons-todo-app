@@ -1,11 +1,13 @@
 .todoList-container {
-  margin-top: 6rem;
-  margin-left: 48rem;
+ margin: 200px;
+ 
+  
 }
 
 .todoList-h1 {
   font-family: "Goblin One";
   font-size: 5rem;
+
 }
 
 .todoList-div {

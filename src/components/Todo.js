@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../css/todo.css";
-import {MdDeleteForever } from 'react-icons/md'
-import {RiEditFill } from 'react-icons/ri'
+import { MdDeleteForever } from "react-icons/md";
+import { RiEditFill } from "react-icons/ri";
+import { GrUpdate } from "react-icons/gr";
 
 const Todo = ({ todoList, setTodoList, todo, text }) => {
   const [update, setUpdate] = useState(text);
@@ -35,23 +36,32 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
     <>
       {onEdit ? (
         <form onSubmit={handleUpdate}>
-          <input type="text" onChange={inputTextHandler} value={update} />
-          <button type="submit"> update change</button>
+          <textarea
+            type="text"
+            onChange={inputTextHandler}
+            value={update}
+            cols="50"
+            rows="10"
+            wrap="hard"
+          ></textarea>
+          <button type="submit" className="todo-textbutton"> <GrUpdate/></button>
         </form>
       ) : (
         <div className="todo-container">
           <ul>
             <li className="todo-li">
               {text}
-              <button onClick={handleDelete}><MdDeleteForever/></button>
-              <button onClick={() => setOnEdit(true)}><RiEditFill/></button>
+              <button onClick={handleDelete}>
+                <MdDeleteForever />
+              </button>
+              <button onClick={() => setOnEdit(true)}>
+                <RiEditFill />
+              </button>
             </li>
           </ul>
-              
         </div>
-        
       )}
-      <hr className="todo-hr"/>
+      <hr className="todo-hr" />
     </>
   );
 };
