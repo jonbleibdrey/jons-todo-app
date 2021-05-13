@@ -12,10 +12,12 @@ const Todolist = ({ todoList, setTodoList }) => {
           </div>
         ) : (
           <>
-            <div className="todoList-div">
+          <div className="todoList-containerFlex">
+            <div className="todoList-div1">
               <h1 className="todoList-h1">Todos</h1>
             </div>
-            <div>
+
+            <div className="todoList-div2">
               {todoList.map((todo) => (
                 <Todo
                   key={todo.id}
@@ -26,6 +28,8 @@ const Todolist = ({ todoList, setTodoList }) => {
                 />
               ))}
             </div>
+
+          </div>
           </>
         )}
       </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/todo.css";
 import { MdDeleteForever } from "react-icons/md";
 import { RiEditFill } from "react-icons/ri";
-import { GrUpdate } from "react-icons/gr";
+import { FaEdit } from "react-icons/fa";
 
 const Todo = ({ todoList, setTodoList, todo, text }) => {
   const [update, setUpdate] = useState(text);
@@ -44,7 +44,7 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
             rows="10"
             wrap="hard"
           ></textarea>
-          <button type="submit" className="todo-textbutton"> <GrUpdate/></button>
+          <button type="submit" className="todo-textbutton"> <FaEdit/></button>
         </form>
       ) : (
         <div className="todo-container">
