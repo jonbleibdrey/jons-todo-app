@@ -1,0 +1,27 @@
+.todo-container {
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.todo-li {
+  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+}
+.todo-li button {
+  font-size: 20px;
+  margin: 0.1rem;
+  padding: 0.5rem;
+  background-color: #2d3142;
+  color: white;
+  margin-left: 1rem;
+}
+.todo-hr {
+  background-color: #c7ef00;
+  border: none;
+  width: 25rem;
+  height: 0.5rem;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+ 
+}

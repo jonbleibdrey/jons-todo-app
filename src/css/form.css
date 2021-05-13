@@ -1,45 +1,45 @@
-.form-div{
-    display: flex;
-    margin-left: 8%;
-    margin-top: 5%;
-
+.form-div {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 5%;
 }
 
-.form-div hr{
-    background-color: #C7EF00;
-    border: none;
-    width: 80rem;
-    height: 0.5rem;
-    margin-left: 10rem;
-    
+.form-div hr {
+  background-color: #c7ef00;
+  border: none;
+  width: 80rem;
+  height: 0.5rem;
+  margin-left: 10rem;
 }
 
-.form-div button{
-    margin: 3rem;
-    margin-left: 43rem;
-    color: #2D3142;
-    font-size: 2.4rem;
-    background: #EF8354;
-    /* padding: 2rem 4rem; */
-    border: none;
-    box-shadow: -7px 5px 10px 0.5px rgb(223, 219, 219);
-    /* border-top-left-radius: 3rem; */
-    border-radius: 50%;
-    height: 13rem;
-    width: 13rem;
-    font-family: 'Bebas Neue', cursive;
+.form-div button {
+  margin: 3rem;
+  margin-left: 43rem;
+  color: #2d3142;
+  font-size: 2.4rem;
+  background: #ef8354;
+  /* padding: 2rem 4rem; */
+  border: none;
+  box-shadow: -7px 5px 10px 0.5px rgb(214, 211, 211);
+  /* border-top-left-radius: 3rem; */
+  border-radius: 50%;
+  height: 13rem;
+  width: 13rem;
+  font-family: 'Satisfy', cursive;
+  cursor: pointer;
 }
 
-.form-input{
-    display: block;
-    padding: 5rem 20rem;
-    font-size: 100px;
-    border: none;
-    outline: none;
-    text-align: left;
-   
+.form-input {
+  display: block;
+  padding: 5rem 20rem;
+  font-size: 100px;
+  border: none;
+  outline: none;
+  text-align: left;
+  background: #ffffff;
+  color: black;
 }
 
-.form-input:hover{
-    outline: none;
+.form-input:hover {
+  outline: none;
 }

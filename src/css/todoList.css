@@ -1,0 +1,25 @@
+.todoList-container {
+  margin-top: 6rem;
+  margin-left: 48rem;
+}
+
+.todoList-h1 {
+  font-family: "Goblin One";
+  font-size: 5rem;
+}
+
+.todoList-div {
+  background-color: #798071;
+  width: 23rem;
+  text-align: center;
+  color: #2d3142;
+  box-shadow: -5px 5px 20px 1px rgb(189, 185, 185);
+  text-shadow: 20px;
+  margin-bottom: 2rem;
+}
+
+.todoList-errorDiv {
+  font-family: "Goblin One";
+  font-size: 2rem;
+  margin-left: 10px;
+}

@@ -1,19 +1,35 @@
 import React from "react";
 import Todo from "./Todo";
+import "../css/todoList.css";
 
 const Todolist = ({ todoList, setTodoList }) => {
   return (
-    <div>
-      {todoList.map((todo) => (
-        <Todo
-          key={todo.id}
-          todoList={todoList}
-          setTodoList={setTodoList}
-          todo={todo}
-          text={todo.text}
-        />
-      ))}
-    </div>
+    <>
+      <div className="todoList-container">
+        {todoList.length === 0 ? (
+          <div className="todoList-div">
+            <h1 className="todoList-h1">No task's yet!</h1>
+          </div>
+        ) : (
+          <>
+            <div className="todoList-div">
+              <h1 className="todoList-h1">Todos</h1>
+            </div>
+            <div>
+              {todoList.map((todo) => (
+                <Todo
+                  key={todo.id}
+                  todoList={todoList}
+                  setTodoList={setTodoList}
+                  todo={todo}
+                  text={todo.text}
+                />
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+    </>
   );
 };
 

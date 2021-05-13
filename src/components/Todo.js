@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import "../css/todo.css";
+import {MdDeleteForever } from 'react-icons/md'
+import {RiEditFill } from 'react-icons/ri'
 
 const Todo = ({ todoList, setTodoList, todo, text }) => {
   const [update, setUpdate] = useState(text);
@@ -9,42 +12,46 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
   };
 
   const handleUpdate = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     setTodoList(
-        todoList.map((item) => {
-          if (item.id === todo.id) {
-            return {
-              ...item,
-              text: update,
-            };
-          }
-          return item;
-        })
-      );
-      setOnEdit(false);
+      todoList.map((item) => {
+        if (item.id === todo.id) {
+          return {
+            ...item,
+            text: update,
+          };
+        }
+        return item;
+      })
+    );
+    setOnEdit(false);
   };
 
   const inputTextHandler = (e) => {
-    setUpdate(e.target.value)
+    setUpdate(e.target.value);
   };
 
   return (
     <>
       {onEdit ? (
         <form onSubmit={handleUpdate}>
-          <input type="text" onChange={inputTextHandler} value={update}/>
+          <input type="text" onChange={inputTextHandler} value={update} />
           <button type="submit"> update change</button>
         </form>
       ) : (
-        <ul style={{ margin: "5rem" }}>
-          <li>
-            <h1>Todos</h1>
-            {text}
-            <button onClick={handleDelete}>delete</button>
-            <button onClick={() => setOnEdit(true)}>edit</button>
-          </li>
-        </ul>
+        <div className="todo-container">
+          <ul>
+            <li className="todo-li">
+              {text}
+              <button onClick={handleDelete}><MdDeleteForever/></button>
+              <button onClick={() => setOnEdit(true)}><RiEditFill/></button>
+            </li>
+          </ul>
+              
+        </div>
+        
       )}
+      <hr className="todo-hr"/>
     </>
   );
 };
