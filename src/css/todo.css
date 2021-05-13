@@ -15,6 +15,8 @@
   background-color: #2d3142;
   color: white;
   margin-left: 1rem;
+  float: right;
+  box-shadow: -2px 2px 5px 1px rgb(189, 185, 185);
 }
 .todo-hr {
   background-color: #c7ef00;
@@ -29,9 +31,15 @@
 .todo-textbutton{
     font-size: 20px;
     margin: 0.1rem;
+    margin-bottom: 2rem;
     padding: 0.5rem;
     background-color: #2d3142;
     color: white;
     border: none;
-    margin-left: 1rem; 
+    float: right;
+    margin-left: -20rem; 
+}
+
+.todo-textArea{
+    margin-bottom: 4rem;
 }

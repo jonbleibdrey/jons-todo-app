@@ -22,8 +22,9 @@ function App() {
           setTodoList={setTodoList}
         />
       </div>
-     
+     <div className="todoList">
         <Todolist todoList={todoList} setTodoList={setTodoList} />
+     </div>
       
     </>
   );

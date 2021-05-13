@@ -1,6 +1,9 @@
 .todoList-container {
   margin: 200px;
+  background-color: royalblue;
+  
 }
+
 
 .todoList-h1 {
   font-family: "Goblin One";
@@ -17,7 +20,7 @@
   margin-bottom: 9rem;
   margin-top: 1rem;
   float: left;
-  margin-left: 20rem;
+  margin-left: 22rem;
 }
 
 .todoList-div1 {

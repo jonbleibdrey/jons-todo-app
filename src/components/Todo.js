@@ -40,9 +40,10 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
             type="text"
             onChange={inputTextHandler}
             value={update}
-            cols="50"
-            rows="10"
+            cols="40"
+            rows="11"
             wrap="hard"
+            className="todo-textArea"
           ></textarea>
           <button type="submit" className="todo-textbutton"> <FaEdit/></button>
         </form>
