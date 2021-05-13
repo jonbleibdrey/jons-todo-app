@@ -14,7 +14,7 @@ const Todolist = ({ todoList, setTodoList }) => {
           <>
           <div className="todoList-containerFlex">
             <div className="todoList-div1">
-              <h1 className="todoList-h1">Todos</h1>
+              <h1 className="todoList-h1">To do:</h1>
             </div>
 
             <div className="todoList-div2">
