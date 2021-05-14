@@ -10,7 +10,7 @@ const Form = ({ input, setInput, todoList, setTodoList }) => {
     e.preventDefault();
     setTodoList([
       ...todoList,
-      { text: input, completed: false, id: Math.random() * 1000 },
+      { text: input, completed: false, id: Math.random() * 1000, date: new Date().toLocaleString() },
     ]);
     setInput("");
   };

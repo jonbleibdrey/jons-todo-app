@@ -40,6 +40,7 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
           return {
             ...item,
             completed: !item.completed,
+            date: new Date().toLocaleString(),
           };
         }
         return item;
@@ -70,6 +71,10 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
           <ul>
             <li className={`${todo.completed ? "completed" : "todo-li"}`}>
               {text}
+              <br/>
+              <div className="todo-date">
+              {todo.date}
+              </div>
               <button onClick={handleDelete}>
                 <MdDeleteForever />
               </button>

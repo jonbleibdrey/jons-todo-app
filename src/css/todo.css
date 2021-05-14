@@ -15,8 +15,6 @@
   padding: 0.5rem;
   background-color: #2d3142;
   color: white;
-  margin-left: 1rem;
-  float: right;
   box-shadow: -2px 2px 5px 1px rgb(189, 185, 185);
 }
 .todo-hr {
@@ -58,8 +56,13 @@
   padding: 0.5rem;
   background-color: #2d3142;
   color: white;
-  margin-left: 1rem;
-  float: right;
-  display: fixed;
+ 
   box-shadow: -2px 2px 5px 1px rgb(189, 185, 185);
+}
+
+.todo-date{
+  opacity: 0.4;
+  font-size: 1rem;
+  font-family: "Goblin One";
+  margin: 1rem;
 }
