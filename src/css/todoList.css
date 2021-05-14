@@ -1,9 +1,7 @@
 .todoList-container {
   margin: 200px;
   background-color: royalblue;
-  
 }
-
 
 .todoList-h1 {
   font-family: "Goblin One";
@@ -11,6 +9,16 @@
 }
 
 .todoList-div {
+  background-color: #ffffff;
+  width: 50rem;
+  text-align: center;
+  color: #2d3142;
+  margin-bottom: 9rem;
+  margin-top: 1rem;
+  float: left;
+  margin-left: 22rem;
+}
+.todoList-divHeader {
   background-color: #798071;
   width: 50rem;
   text-align: center;
@@ -21,34 +29,6 @@
   margin-top: 1rem;
   float: left;
   margin-left: 22rem;
-}
-
-.todoList-div1 {
-  background-color: #798071;
-  width: 23rem;
-  text-align: center;
-  color: #2d3142;
-  box-shadow: -5px 5px 20px 1px rgb(189, 185, 185);
-  text-shadow: 20px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  float: left;
-  margin-left: 15rem;
-}
-
-
-.todoList-div2 {
-  background-color: #ffffff;
-  width: 40rem;
-  padding: 5rem;
-  text-align: center;
-  color: #2d3142;
-
-  text-shadow: 20px;
-  margin-bottom: 2rem;
-  margin-top: -9rem;
-  float: left;
-  margin-left: 5rem;
 }
 
 .todoList-errorDiv {

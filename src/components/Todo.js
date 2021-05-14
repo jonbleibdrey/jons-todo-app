@@ -62,7 +62,6 @@ const Todo = ({ todoList, setTodoList, todo, text }) => {
             className="todo-textArea"
           ></textarea>
           <button type="submit" className="todo-textbutton">
-            {" "}
             <FaEdit />
           </button>
         </form>
