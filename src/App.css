@@ -14,17 +14,14 @@
   background-color: #c7ef00;
   color: #2d3142;
   font-family: "Goblin One";
-
 }
 
 .App > h1 {
   width: 100%;
   text-align: center;
   color: white;
-  background-image: linear-gradient(to right, #ef8354, #94849B);
+  background-image: linear-gradient(to right, #ef8354, #94849b);
   padding: 5%;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 4rem;
- 
 }
-
