@@ -5,7 +5,7 @@
 }
 
 .form-div hr {
-  background-color: #c7ef00;
+  background-color: #EF8354;
   border: none;
   width: 80rem;
   height: 0.5rem;
@@ -15,9 +15,9 @@
 .form-div button {
   margin: 3rem;
   margin-left: 43rem;
-  color: #2d3142;
+  color: black;
   font-size: 2.4rem;
-  background: #ef8354;
+  background: #C7EF00;
   /* padding: 2rem 4rem; */
   border: none;
   box-shadow: -7px 5px 10px 0.5px rgb(214, 211, 211);

@@ -6,10 +6,13 @@
 .todoList-h1 {
   font-family: "Goblin One";
   font-size: 5rem;
+  background: #94849B;
+  box-shadow: -5px 5px 20px 5px rgb(189, 185, 185);
+  border-radius: 20rem;
+  padding: 1rem;
 }
 
 .todoList-div {
-  background-color: #ffffff;
   width: 50rem;
   text-align: center;
   color: #2d3142;
@@ -19,11 +22,10 @@
   margin-left: 22rem;
 }
 .todoList-divHeader {
-  background-color: #798071;
   width: 50rem;
   text-align: center;
   color: #2d3142;
-  box-shadow: -5px 5px 20px 1px rgb(189, 185, 185);
+
   text-shadow: 20px;
   margin-bottom: 9rem;
   margin-top: 1rem;
